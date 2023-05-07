@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Credit Card Farud Detection</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="/static/js/dashboard.js"></script>
+  <script src='https://cdn.plot.ly/plotly-latest.min.js'></script>
+
+
+  <style>
+    div.ex1 {
+      width: 30%;
+      height: 400px;
+      padding: 10px;
+      border: thin solid black;
+    }
+
+    div.tw1 {
+      width: 100%;
+      height: 400px;
+      padding: 10px;
+      border: thin solid black;
+    }
+  </style>
+  <style>
+    .sidenav {
+      height: 100%;
+      width: 200px;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      background-color: rgb(0, 0, 0);
+      overflow-x: hidden;
+      padding-top: 20px;
+    }
+
+    .sidenav a,
+    .dropdown-btn {
+      padding: 6px 8px 6px 16px;
+      text-decoration: none;
+      font-size: 20px;
+      color: #818181;
+      display: block;
+      border: none;
+      background: none;
+      width: 100%;
+      text-align: left;
+      cursor: pointer;
+      outline: none;
+    }
+
+    .sidenav a:hover,
+    .dropdown-btn:hover {
+      color: #f1f1f1;
+    }
+
+    .tab-content>.active {
+      display: block;
+      text-align: center;
+    }
+
+    .col-md-9 {
+      padding-left: 15%;
+      width: 100%;
+    }
+
+    p {
+      font-size: 18px;
+    }
+
+    h4 {
+      font-size: 30px;
+    }
+
+    .well {
+      background-color: #f0efef;
+      border: thin solid black;
+      height: 500;
+    }
+  </style>
+</head>
+
+<body>
+
+  <br>
+
+  <div class="col-md-12">
+    <div class="tab-content">
+      <div id="home" class="tab-pane fade in active">
+        <div class=" well">
+          <h2><b>Transaction Anomaly Detection</b> </h2>
+          <p class="p1">
+          </p>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="well">
+              <label>Fraud based on Geo location in USA</label>
+
+              <div width="100px" height="250px" style="border: thin solid black">
+                <div class="rd" id="state_chart">
+                  <!-- <img src = "{{plot_url}}"></img> -->
+                  <script type='text/javascript'>
+                    var layout = {
+                      autosize: true,
+                      width: "100px",
+                      height: "250px",
+                      paper_bgcolor: '#7f7f7f',
+                      plot_bgcolor: '#c7c7c7',
+                    };
+
+                    var graphs = {{ state| safe}};
+                    Plotly.plot('state_chart', graphs, layout = layout);
+                  </script>
+                </div>
+              </div>
+              <!-- </form> -->
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="well">
+              <label>Fraud on basis of gender</label>
+              <!-- <form method="get" action="/twitter_all_data"> -->
+              <div width="100px" height="250px" style="border: thin solid black">
+                <div class="rd" id="gender_chart">
+                  <!-- <img src = "{{plot_url}}"></img> -->
+                  <script type='text/javascript'>
+                    var layout = {
+                      autosize: true,
+                      width: 500,
+                      height: 500,
+                      paper_bgcolor: '#7f7f7f',
+                      plot_bgcolor: '#c7c7c7',
+                    };
+
+                    var graphs = {{ gender| safe}};
+                    Plotly.plot('gender_chart', graphs, layout = layout);
+                  </script>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="well">
+              <label>Fraud Based on categories</label>
+              <!-- <form method="get" action="/twitter_all_data"> -->
+              <div width="100px" height="250px" style="border: thin solid black">
+                <div class="rd" id="categories">
+                  <!-- <img src = "{{plot_url}}"></img> -->
+                  <script type='text/javascript'>
+                    var layout = {
+                      autosize: true,
+                      width: 500,
+                      height: 500,
+                      paper_bgcolor: '#7f7f7f',
+                      plot_bgcolor: '#c7c7c7',
+                    };
+
+                    var graphs = {{ cat| safe}};
+                    Plotly.plot('categories', graphs, layout = layout);
+                  </script>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="well">
+              <label>Fraud based on geo-location</label>
+
+              <div width="100px" height="250px" style="border: thin solid black">
+                <div class="rd" id="prof_chart">
+                  <!-- <img src = "{{plot_url}}"></img> -->
+                  <script type='text/javascript'>
+                    var layout = {
+                      autosize: true,
+                      width: 500,
+                      height: 500,
+                      paper_bgcolor: '#7f7f7f',
+                      plot_bgcolor: '#c7c7c7'
+                    };
+                    var graphs = {{ prof| safe}};
+                    Plotly.plot('prof_chart', graphs, layout = layout);
+                  </script>
+                </div>
+              </div>
+              <!-- </form> -->
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="well">
+              <label>Fraud and Non-Fraud Transactions</label>
+              <!-- <form method="get" action="/twitter_all_data"> -->
+              <div width="100px" height="250px" style="border: thin solid black">
+                <div class="rd" id="count1_chart">
+                  <!-- <img src = "{{plot_url}}"></img> -->
+                  <script type='text/javascript'>
+                    var layout = {
+                      autosize: true,
+                      width: 500,
+                      height: 500,
+                      paper_bgcolor: '#7f7f7f',
+                      plot_bgcolor: '#c7c7c7'
+                    };
+                    var graphs = {{ count| safe}};
+                    Plotly.plot('count1_chart', graphs, layout = layout);
+                  </script>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="well">
+              <label>Fraud based on Time of Day</label>
+              <!-- <form method="get" action="/twitter_all_data"> -->
+              <div width="100px" height="250px" style="border: thin solid black">
+                <div class="rd" id="tm_chart1">
+                  <!-- <img src = "{{plot_url}}"></img> -->
+                  <script type='text/javascript'>
+                    var layout = {
+                      autosize: true,
+                      width: 500,
+                      height: 500,
+                      paper_bgcolor: '#7f7f7f',
+                      plot_bgcolor: '#c7c7c7'
+                    };
+                    var graphs = {{ time| safe}};
+                    Plotly.plot('tm_chart1', graphs, layout = layout);
+                  </script>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="well">
+              <label>Fraud by Profession graph</label>
+
+              <div width="100px" height="250px" style="border: thin solid black">
+                <div class="rd" id="map1_chart">
+                  <!-- <img src = "{{plot_url}}"></img> -->
+                  <script type='text/javascript'>
+                    var layout = {
+                      autosize: true,
+                      // width: 500,
+                      // height: 500,
+                      paper_bgcolor: '#7f7f7f',
+                      plot_bgcolor: '#c7c7c7'
+                    };
+                    var graphs = {{ state| safe}};
+                    Plotly.plot('map1_chart', graphs, layout = layout);
+                  </script>
+                </div>
+              </div>
+              <!-- </form> -->
+            </div>
+          </div>
+                   
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+
+</body>
+
+</html>
