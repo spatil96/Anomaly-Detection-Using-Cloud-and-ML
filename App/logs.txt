@@ -1,0 +1,129 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.80:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 199-253-251
+INFO:werkzeug:127.0.0.1 - - [30/Apr/2023 23:13:07] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Apr/2023 23:13:07] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Apr/2023 23:13:42] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.80:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 199-253-251
+INFO:werkzeug: * Detected change in 'c:\\Users\\Sumeet\\Desktop\\CloudAPP\\appDB.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.80:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 199-253-251
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.80:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 199-253-251
+INFO:werkzeug:192.168.1.80 - - [30/Apr/2023 23:49:16] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.1.80 - - [30/Apr/2023 23:49:16] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.1.80 - - [30/Apr/2023 23:49:24] "GET /transactions HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\Sumeet\\Desktop\\CloudAPP\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 199-253-251
+INFO:werkzeug: * Detected change in 'c:\\Users\\Sumeet\\Desktop\\CloudAPP\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 199-253-251
+INFO:werkzeug: * Detected change in 'c:\\Users\\Sumeet\\Desktop\\CloudAPP\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 199-253-251
+INFO:werkzeug: * Detected change in 'c:\\Users\\Sumeet\\Desktop\\CloudAPP\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 199-253-251
+INFO:werkzeug: * Detected change in 'c:\\Users\\Sumeet\\Desktop\\CloudAPP\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 199-253-251
+INFO:werkzeug:192.168.1.80 - - [01/May/2023 00:03:47] "GET /transactions HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\Sumeet\\Desktop\\CloudAPP\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 199-253-251
+INFO:werkzeug: * Detected change in 'c:\\Users\\Sumeet\\Desktop\\CloudAPP\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 199-253-251
+INFO:werkzeug: * Detected change in 'c:\\Users\\Sumeet\\Desktop\\CloudAPP\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 199-253-251
+INFO:werkzeug:192.168.1.80 - - [01/May/2023 00:06:17] "GET /transactions HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\Sumeet\\Desktop\\CloudAPP\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 199-253-251
+INFO:werkzeug:192.168.1.80 - - [01/May/2023 00:07:04] "GET /transactions HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.80:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 199-253-251
+INFO:werkzeug:192.168.1.80 - - [01/May/2023 00:09:12] "GET /transactions HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.80 - - [01/May/2023 00:09:33] "GET /transactions HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.80 - - [01/May/2023 00:10:01] "GET /transactions HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\Sumeet\\Desktop\\CloudAPP\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 199-253-251
+INFO:werkzeug:192.168.1.80 - - [01/May/2023 00:12:26] "GET /transactions HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\Sumeet\\Desktop\\CloudAPP\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 199-253-251
+INFO:werkzeug:192.168.1.80 - - [01/May/2023 00:13:03] "GET /transactions HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\Sumeet\\Desktop\\CloudAPP\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 199-253-251
+INFO:werkzeug:192.168.1.80 - - [01/May/2023 00:14:24] "GET /transactions HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2023 00:39:20] "[33mGET /t HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.183:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 199-253-251
+INFO:werkzeug:192.168.1.183 - - [01/May/2023 00:51:50] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.1.183 - - [01/May/2023 00:51:50] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.1.183 - - [01/May/2023 00:51:58] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.1.183 - - [01/May/2023 00:52:08] "GET /transactions HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\Sumeet\\Desktop\\CloudAPP\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 199-253-251
+INFO:werkzeug: * Detected change in 'c:\\Users\\Sumeet\\Desktop\\CloudAPP\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 199-253-251
+INFO:werkzeug:192.168.1.183 - - [01/May/2023 00:53:40] "GET /transactions HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.183 - - [01/May/2023 00:59:54] "[35m[1mGET /transactions HTTP/1.1[0m" 500 -
+INFO:werkzeug:192.168.1.183 - - [01/May/2023 01:01:29] "[35m[1mGET /transactions HTTP/1.1[0m" 500 -
